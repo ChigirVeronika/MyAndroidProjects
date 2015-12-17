@@ -36,14 +36,23 @@
 
     <string name="start">Start</string>
     <string name="stop">Stop</string>
-    <color name="yellow">#DEE054</color>
     <string name="plus">+</string>
     <string name="minus">-</string>
     <string name="bps">bps</string>
     <string name="timesignature">time signature</string>
     <string name="dash">/</string>
     <string name="volume">volume</string>
-    <color name="black">#000000</color>
     <string name="one">1</string>
+
+    <string name="note0">Choose notes</string>
+    <string name="note1">Saint-Saens  The Swan</string>
+    <string name="note2">Bash  Sonata No.4</string>
+    <string name="note3">Derbenko  Polka</string>
+    <string name="note4">Vivaldi  Concert Am</string>
+    <string name="note5">Lulli  Gavotte</string>
+    <string name="note6">Loveland  Secret Garden Song</string>
+    <string name="note7">Metallidi  Roantic Waltz</string>
+    <string name="note8">Metallidi  Roantic Waltz</string>
+
 
 </resources>

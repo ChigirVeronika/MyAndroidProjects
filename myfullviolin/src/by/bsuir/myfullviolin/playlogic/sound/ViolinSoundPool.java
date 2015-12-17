@@ -32,7 +32,6 @@ public class ViolinSoundPool {
         soundPoolMap.put(6,soundPoll.load(context, R.raw.m6, 1));
         soundPoolMap.put(7,soundPoll.load(context, R.raw.m7, 1));
         soundPoolMap.put(8,soundPoll.load(context, R.raw.m8, 1));
-        //Toast.makeText(this.context, "", Toast.LENGTH_SHORT).show();
     }
     public final int play(int soundID, float leftVolume, float rightVolume, int priority, int loop, float rate)throws Exception{
 

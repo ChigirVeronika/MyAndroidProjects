@@ -5,15 +5,17 @@
               android:layout_width="match_parent"
               android:layout_height="match_parent" android:weightSum="1"
               android:orientation="vertical"
-              tools:context=".SettingsActivity" >
+              tools:context=".SettingsActivity"
+              android:background="@drawable/cool">
     <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
             android:id="@+id/text"
             android:text="@string/choiceText"
-            android:textSize="@dimen/settings_textsize" android:layout_marginLeft="20dp"
-            android:layout_marginTop="20dp"/>
+            android:textSize="@dimen/settings_textsize"
+            android:layout_marginLeft="@dimen/settings_Margin"
+            android:layout_marginTop="@dimen/settings_Margin"/>
 
     <RadioGroup
             android:layout_width="match_parent"
@@ -22,7 +24,7 @@
             android:id="@+id/settingsRadioGroup"
             android:checkedButton="@+id/c_black"
             android:textSize="@dimen/settings_textsize"
-            android:layout_marginLeft="20dp">
+            android:layout_marginLeft="@dimen/settings_Margin">
 
         <RadioButton
                 android:layout_width="wrap_content"
@@ -59,13 +61,13 @@
     </RadioGroup>
     <Button
             android:id="@+id/buttonChangeBgColor"
-            android:layout_width="116dp"
+            android:layout_width="@dimen/settings_buttonwidth"
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
             android:layout_below="@+id/settingsRadioGroup"
             android:text="@string/Choose"
             android:layout_gravity="bottom"
-            android:layout_marginLeft="20dp"/>
+            android:layout_marginLeft="@dimen/settings_Margin"/>
 
 </LinearLayout>

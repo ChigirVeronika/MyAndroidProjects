@@ -10,13 +10,13 @@
         android:id="@+id/aboutLayout"
         android:layout_height="fill_parent"
         android:layout_gravity="center_vertical|center_horizontal"
-
+        android:background="@drawable/cool"
         >
 
     <TextView android:text="@string/head_about_text"
               android:id="@+id/textView1"
-              android:layout_width="280dip"
-              android:layout_height="60dip"
+              android:layout_width="@dimen/about_textview_width"
+              android:layout_height="@dimen/about_textview_height"
               android:layout_margin="@dimen/main_margin"
               android:textSize="@dimen/head_about_textsize">
 
@@ -24,39 +24,39 @@
 
     <TextView android:text="@string/about_text"
               android:id="@+id/textView2"
-              android:layout_width="280dip"
-              android:layout_height="60dip"
+              android:layout_width="@dimen/about_textview_width"
+              android:layout_height="@dimen/about_textview_height"
               android:layout_margin="@dimen/main_margin"
               android:textSize="@dimen/about_textsize">
     </TextView>
 
     <TextView android:text="@string/head2_about_text"
               android:id="@+id/textView3"
-              android:layout_width="280dip"
-              android:layout_height="60dip"
+              android:layout_width="@dimen/about_textview_width"
+              android:layout_height="@dimen/about_textview_height"
               android:layout_margin="@dimen/main_margin"
               android:textSize="@dimen/head_about_textsize">
     </TextView>
 
     <TextView android:text="@string/about2_text"
               android:id="@+id/textView4"
-              android:layout_width="280dip"
-              android:layout_height="60dip"
+              android:layout_width="@dimen/about_textview_width"
+              android:layout_height="@dimen/about_textview_height"
               android:layout_margin="@dimen/main_margin"
               android:textSize="@dimen/about_textsize">
     </TextView>
     <TextView android:text="@string/head3_about_text"
               android:id="@+id/textView5"
-              android:layout_width="280dip"
-              android:layout_height="60dip"
+              android:layout_width="@dimen/about_textview_width"
+              android:layout_height="@dimen/about_textview_height"
               android:layout_margin="@dimen/main_margin"
               android:textSize="@dimen/head_about_textsize">
     </TextView>
 
     <TextView android:text="@string/about3_text"
               android:id="@+id/textView6"
-              android:layout_width="280dip"
-              android:layout_height="60dip"
+              android:layout_width="@dimen/about_textview_width"
+              android:layout_height="@dimen/about_textview_height"
               android:layout_margin="@dimen/main_margin"
               android:textSize="@dimen/about_textsize">
     </TextView>

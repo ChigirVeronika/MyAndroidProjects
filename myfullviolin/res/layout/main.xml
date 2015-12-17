@@ -3,13 +3,13 @@
               android:orientation="vertical"
               android:layout_width="wrap_content"
               android:layout_height="fill_parent"
-              android:background="@drawable/blueviolin">
+              android:background="@drawable/cool">
 
     <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/welcome"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:layout_gravity="center_horizontal"
             android:layout_margin="@dimen/main_margin"
             android:textSize="@dimen/textsize"/>

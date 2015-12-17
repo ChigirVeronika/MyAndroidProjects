@@ -4,59 +4,60 @@
               android:orientation="vertical"
               android:layout_width="match_parent"
               android:layout_height="match_parent"
-              android:background="@drawable/blueviolin">
+              android:background="@drawable/cool">
 
     <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Choose notes"
+            android:text="@string/note0"
             android:textSize="@dimen/head_about_textsize"
-            android:id="@+id/textView" android:layout_gravity="center_horizontal"
+            android:id="@+id/textView"
+            android:layout_gravity="center_horizontal"
             android:layout_margin="@dimen/main_margin"
-            android:textColor="@color/black"/>
+            android:textColor="@color/white"/>
     <TableLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
         <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Saint-Saens  The Swan"
+                android:text="@string/note1"
                 android:id="@+id/buttonNotes1"
                 android:layout_margin="@dimen/notes_margin"/>
         <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Bash  Sonata No.4"
+                android:text="@string/note2"
                 android:id="@+id/buttonNotes2" android:layout_gravity="center_horizontal"
                 android:layout_margin="@dimen/notes_margin"/>
         <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Derbenko  Polka"
+                android:text="@string/note3"
                 android:id="@+id/buttonNotes3" android:layout_gravity="center_horizontal"
                 android:layout_margin="@dimen/notes_margin"/>
         <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Vivaldi  Concert Am"
+                android:text="@string/note4"
                 android:id="@+id/buttonNotes4" android:layout_gravity="center_horizontal"
                 android:layout_margin="@dimen/notes_margin"/>
         <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Lulli  Gavotte"
+                android:text="@string/note5"
                 android:id="@+id/buttonNotes5" android:layout_gravity="center_horizontal"
                 android:layout_margin="@dimen/notes_margin"/>
         <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Loveland  Secret Garden Song"
+                android:text="@string/note6"
                 android:id="@+id/buttonNotes6" android:layout_gravity="center_horizontal"
                 android:layout_margin="@dimen/notes_margin"/>
         <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Metallidi  Roantic Waltz"
+                android:text="@string/note8"
                 android:id="@+id/buttonNotes7" android:layout_gravity="center_horizontal"
                 android:layout_margin="@dimen/notes_margin"/>
     </TableLayout>
