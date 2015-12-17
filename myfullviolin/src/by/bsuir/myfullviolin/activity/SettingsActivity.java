@@ -1,10 +1,11 @@
-package by.bsuir.myfullviolin;
+package by.bsuir.myfullviolin.activity;
 
 import android.app.Activity;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.*;
+import by.bsuir.myfullviolin.R;
 
 /**
  * Created by Вероника on 12.12.2015.

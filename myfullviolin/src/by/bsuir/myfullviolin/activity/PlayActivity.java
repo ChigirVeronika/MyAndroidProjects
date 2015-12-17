@@ -1,4 +1,4 @@
-package by.bsuir.myfullviolin;
+package by.bsuir.myfullviolin.activity;
 
 import android.app.Activity;
 import android.media.AudioManager;
@@ -11,6 +11,7 @@ import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.Toast;
+import by.bsuir.myfullviolin.R;
 import by.bsuir.myfullviolin.playlogic.sound.ViolinSoundPool;
 
 import java.util.HashMap;
@@ -44,7 +45,7 @@ public class PlayActivity extends Activity {
         imageButton_m8 = (ImageButton) findViewById(R.id.ImageButton_m8);
 //один раз загружает этот звук в память и оттуда его воспроизводит
         SoundPool soundPoll= new SoundPool(ALL_STREAMS, AudioManager.STREAM_MUSIC, 0);
-                                                        //аудио-поток
+                                                        //тип аудио-потока..0 - качество кодирования уже не юзается
         HashMap<Integer,Integer> soundPoolMap= new HashMap<Integer, Integer>();
 
         final ViolinSoundPool violinSoundPool = new ViolinSoundPool(this,soundPoolMap,soundPoll);

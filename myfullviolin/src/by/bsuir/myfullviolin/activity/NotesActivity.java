@@ -1,4 +1,4 @@
-package by.bsuir.myfullviolin;
+package by.bsuir.myfullviolin.activity;
 
 import android.app.Activity;
 import android.content.ActivityNotFoundException;
@@ -11,6 +11,7 @@ import android.os.Environment;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import by.bsuir.myfullviolin.R;
 
 import java.io.*;
 

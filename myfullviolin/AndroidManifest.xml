@@ -14,22 +14,22 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".AboutActivity"
+        <activity android:name=".activity.AboutActivity"
                   android:label="@string/title_activity_about" >
         </activity>
-        <activity android:name=".NotesActivity"
+        <activity android:name=".activity.NotesActivity"
                   android:label="@string/title_activity_notes">
         </activity>
-        <activity android:name=".PlayActivity"
+        <activity android:name=".activity.PlayActivity"
                 android:label="@string/title_activity_play">
         </activity>
-        <activity android:name=".SettingsActivity"
+        <activity android:name=".activity.SettingsActivity"
                   android:label="@string/title_activity_setting">
         </activity>
-        <activity android:name=".TunerActivity"
+        <activity android:name=".activity.TunerActivity"
                   android:label="@string/title_activity_tuner">
         </activity>
-        <activity android:name=".MetroActivity"
+        <activity android:name=".activity.MetroActivity"
                   android:label="@string/title_activity_metro">
         </activity>
     </application>

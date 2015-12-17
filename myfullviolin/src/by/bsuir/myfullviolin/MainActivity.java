@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import by.bsuir.myfullviolin.activity.*;
 
 public class MainActivity extends Activity {
     /**
@@ -29,6 +30,7 @@ public class MainActivity extends Activity {
         buttonPlay.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                //абстрактное описание активности, которая будет выполняться
                 Intent intentPlay = new Intent();
                 intentPlay.setClass(MainActivity.this, PlayActivity.class);
                 startActivity(intentPlay);
