@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/notesLayout"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@drawable/blueviolin">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choose notes"
+            android:textSize="@dimen/head_about_textsize"
+            android:id="@+id/textView" android:layout_gravity="center_horizontal"
+            android:layout_margin="@dimen/main_margin"
+            android:textColor="@color/black"/>
+    <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Saint-Saens  The Swan"
+                android:id="@+id/buttonNotes1"
+                android:layout_margin="@dimen/notes_margin"/>
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bash  Sonata No.4"
+                android:id="@+id/buttonNotes2" android:layout_gravity="center_horizontal"
+                android:layout_margin="@dimen/notes_margin"/>
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Derbenko  Polka"
+                android:id="@+id/buttonNotes3" android:layout_gravity="center_horizontal"
+                android:layout_margin="@dimen/notes_margin"/>
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vivaldi  Concert Am"
+                android:id="@+id/buttonNotes4" android:layout_gravity="center_horizontal"
+                android:layout_margin="@dimen/notes_margin"/>
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lulli  Gavotte"
+                android:id="@+id/buttonNotes5" android:layout_gravity="center_horizontal"
+                android:layout_margin="@dimen/notes_margin"/>
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Loveland  Secret Garden Song"
+                android:id="@+id/buttonNotes6" android:layout_gravity="center_horizontal"
+                android:layout_margin="@dimen/notes_margin"/>
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Metallidi  Roantic Waltz"
+                android:id="@+id/buttonNotes7" android:layout_gravity="center_horizontal"
+                android:layout_margin="@dimen/notes_margin"/>
+    </TableLayout>
+</LinearLayout>
