@@ -1,4 +1,4 @@
-package by.bsuir.myfullviolin.activity;
+package by.bsuir.myfullviolin.controller;
 
 import android.annotation.TargetApi;
 import android.app.Activity;
@@ -10,9 +10,9 @@ import android.view.KeyEvent;
 import android.view.View;
 import android.widget.*;
 import by.bsuir.myfullviolin.R;
-import by.bsuir.myfullviolin.metrologic.metronome.Beats;
-import by.bsuir.myfullviolin.metrologic.metronome.Metronome;
-import by.bsuir.myfullviolin.metrologic.metronome.NoteValues;
+import by.bsuir.myfullviolin.model.metronome.Beats;
+import by.bsuir.myfullviolin.model.metronome.Metronome;
+import by.bsuir.myfullviolin.model.metronome.NoteValues;
 
 /**
  * Created by Вероника on 13.12.2015.

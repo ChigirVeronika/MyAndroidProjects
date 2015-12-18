@@ -1,4 +1,4 @@
-package by.bsuir.myfullviolin.playlogic.sound;
+package by.bsuir.myfullviolin.model.sound;
 
 import android.content.Context;
 import android.media.SoundPool;

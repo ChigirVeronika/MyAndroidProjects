@@ -1,4 +1,4 @@
-package by.bsuir.myfullviolin.metrologic.metronome;
+package by.bsuir.myfullviolin.model.metronome;
 
 public enum NoteValues{
 	four("4");

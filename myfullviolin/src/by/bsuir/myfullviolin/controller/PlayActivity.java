@@ -1,4 +1,4 @@
-package by.bsuir.myfullviolin.activity;
+package by.bsuir.myfullviolin.controller;
 
 import android.app.Activity;
 import android.media.AudioManager;
@@ -12,7 +12,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.Toast;
 import by.bsuir.myfullviolin.R;
-import by.bsuir.myfullviolin.playlogic.sound.ViolinSoundPool;
+import by.bsuir.myfullviolin.model.sound.ViolinSoundPool;
 
 import java.util.HashMap;
 

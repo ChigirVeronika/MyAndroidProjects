@@ -1,4 +1,4 @@
-package by.bsuir.myfullviolin.activity;
+package by.bsuir.myfullviolin.controller;
 
 import android.app.Activity;
 import android.graphics.Color;

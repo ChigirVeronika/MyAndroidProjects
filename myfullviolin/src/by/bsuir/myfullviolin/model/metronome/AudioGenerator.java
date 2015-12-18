@@ -4,15 +4,15 @@
  * which came from here:
  * http://marblemice.blogspot.com/2010/04/generate-and-play-tone-in-android.html
  */
-package by.bsuir.myfullviolin.metrologic.metronome;
+package by.bsuir.myfullviolin.model.metronome;
 
 import android.media.AudioFormat;
-import android.media.AudioManager;
-import android.media.AudioTrack;
+import android.media.AudioManager;//управление громкостью
+import android.media.AudioTrack;//запись и  воспроизведение аудиороликов
 
 public class AudioGenerator {
 	
-    private int sampleRate;
+    private int sampleRate;//размер буфера в байтах
     private AudioTrack audioTrack;
     
     public AudioGenerator(int sampleRate) {
@@ -20,13 +20,14 @@ public class AudioGenerator {
     }
     
     public double[] getSineWave(int samples,int sampleRate,double frequencyOfTone) {
-    	double[] sample = new double[samples];
+    	double[] sample = new double[samples];          //частота в √ц
         for (int i = 0; i < samples; i++) {
             sample[i] = Math.sin(2 * Math.PI * i / (sampleRate/frequencyOfTone));
         }
 		return sample;
     }
-    
+
+    //16битное кодир.
     public byte[] get16BitPcm(double[] samples) {
     	byte[] generatedSound = new byte[2 * samples.length];
     	int index = 0;
@@ -42,17 +43,19 @@ public class AudioGenerator {
     }
     
     public void createPlayer(){
-    	//FIXME sometimes audioTrack isn't initialized
-        audioTrack = new AudioTrack(AudioManager.STREAM_MUSIC,
-                sampleRate, AudioFormat.CHANNEL_OUT_MONO,
-                AudioFormat.ENCODING_PCM_16BIT, sampleRate,
-                AudioTrack.MODE_STREAM);
+        audioTrack = new AudioTrack(AudioManager.STREAM_MUSIC,//микрофон
+                sampleRate, AudioFormat.CHANNEL_OUT_MONO,//частота//конфигураци€ канала
+                AudioFormat.ENCODING_PCM_16BIT, sampleRate,//тип кодировани€ звука//размер буфера в байтах
+                AudioTrack.MODE_STREAM);//режим дл€ потокового звука
     	audioTrack.play();
     }
-    
+
+    //запись звуковых данных на устройство воспроизведени€
     public void writeSound(double[] samples) {
     	byte[] generatedSnd = get16BitPcm(samples);
-    	audioTrack.write(generatedSnd, 0, generatedSnd.length);
+    	audioTrack.write(generatedSnd,//буфер со звуковыми данными
+                        0,//смещение =0, воспроизведение будет начато с начала буфера
+                        generatedSnd.length);//размер буфера
     }
     
     public void destroyAudioTrack() {

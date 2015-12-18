@@ -1,4 +1,4 @@
-package by.bsuir.myfullviolin.metrologic.metronome;
+package by.bsuir.myfullviolin.model.metronome;
 
 import android.os.Handler;
 import android.os.Message;
@@ -10,7 +10,7 @@ public class Metronome {
 	private int noteValue;
 	private int silence;
 
-	private double beatSound;
+	private double beatSound;//звук удара
 	private double sound;
 	private final int tick = 1000; // samples of tick
 	

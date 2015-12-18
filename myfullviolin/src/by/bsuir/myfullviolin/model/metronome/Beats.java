@@ -1,5 +1,6 @@
-package by.bsuir.myfullviolin.metrologic.metronome;
+package by.bsuir.myfullviolin.model.metronome;
 
+//максимум 8 звуков за 1 проход
 public enum Beats{
 	one("1"),
 	two("2"),
