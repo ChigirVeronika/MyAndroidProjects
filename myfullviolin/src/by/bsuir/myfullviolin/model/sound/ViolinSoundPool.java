@@ -16,9 +16,35 @@ public class ViolinSoundPool {
 
     public  HashMap<Integer,Integer> soundPoolMap;
 
+    public ViolinSoundPool(){}
+
     public ViolinSoundPool(Context context, HashMap<Integer, Integer> soundPoolMap, SoundPool soundPool) {
         this.context = context;
         this.soundPool = soundPool;
+        this.soundPoolMap = soundPoolMap;
+    }
+
+    public Context getContext() {
+        return context;
+    }
+
+    public void setContext(Context context) {
+        this.context = context;
+    }
+
+    public SoundPool getSoundPool() {
+        return soundPool;
+    }
+
+    public void setSoundPool(SoundPool soundPool) {
+        this.soundPool = soundPool;
+    }
+
+    public HashMap<Integer, Integer> getSoundPoolMap() {
+        return soundPoolMap;
+    }
+
+    public void setSoundPoolMap(HashMap<Integer, Integer> soundPoolMap) {
         this.soundPoolMap = soundPoolMap;
     }
 

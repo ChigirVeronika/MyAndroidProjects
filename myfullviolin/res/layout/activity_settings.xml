@@ -24,7 +24,7 @@
             android:id="@+id/settingsRadioGroup"
             android:checkedButton="@+id/c_black"
             android:textSize="@dimen/settings_textsize"
-            android:layout_marginLeft="@dimen/settings_Margin">
+            android:layout_marginLeft="@dimen/settings_Margin" android:weightSum="1">
 
         <RadioButton
                 android:layout_width="wrap_content"
@@ -32,7 +32,7 @@
                 android:id="@+id/c_blue"
                 android:text="@string/C_blue"
                 android:layout_margin="@dimen/main_margin"
-                android:textSize="@dimen/settings_textsize"/>
+                android:textSize="@dimen/settings_textsize" android:visibility="invisible"/>
 
         <RadioButton
                 android:layout_width="wrap_content"
@@ -40,7 +40,7 @@
                 android:id="@+id/c_grey"
                 android:text="@string/C_grey"
                 android:layout_margin="@dimen/main_margin"
-                android:textSize="@dimen/settings_textsize"/>
+                android:textSize="@dimen/settings_textsize" android:visibility="invisible"/>
 
         <RadioButton
                 android:layout_width="wrap_content"
@@ -48,26 +48,26 @@
                 android:id="@+id/c_pink"
                 android:text="@string/C_pink"
                 android:layout_margin="@dimen/main_margin"
-                android:textSize="@dimen/settings_textsize"/>
+                android:textSize="@dimen/settings_textsize" android:visibility="invisible"/>
         <RadioButton
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="51dp"
                 android:id="@+id/c_black"
                 android:text="@string/C_black"
                 android:layout_gravity="center_vertical"
                 android:layout_margin="@dimen/main_margin"
-                android:textSize="@dimen/settings_textsize"/>
+                android:textSize="@dimen/settings_textsize" android:layout_weight="0.45"/>
 
     </RadioGroup>
     <Button
             android:id="@+id/buttonChangeBgColor"
-            android:layout_width="@dimen/settings_buttonwidth"
+            android:layout_width="174dp"
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
             android:layout_below="@+id/settingsRadioGroup"
             android:text="@string/Choose"
             android:layout_gravity="bottom"
-            android:layout_marginLeft="@dimen/settings_Margin"/>
+            android:layout_marginLeft="@dimen/settings_Margin" android:layout_weight="0.20"/>
 
 </LinearLayout>

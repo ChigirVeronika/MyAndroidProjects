@@ -71,8 +71,7 @@ public class NotesActivity extends Activity {
 
     }
 
-    private void CopyReadPDFFromAssets(String pdfPath)
-    {
+    private void CopyReadPDFFromAssets(String pdfPath) {
         AssetManager assetManager = getAssets();
 
         InputStream in = null;

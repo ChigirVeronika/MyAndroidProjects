@@ -10,7 +10,6 @@
         android:id="@+id/aboutLayout"
         android:layout_height="fill_parent"
         android:layout_gravity="center_vertical|center_horizontal"
-        android:background="@drawable/cool"
         >
 
     <TextView android:text="@string/head_about_text"

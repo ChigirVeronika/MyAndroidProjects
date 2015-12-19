@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Full Violin</string>
+    <string name="hello_world">Hello</string>
+    <string name="title_activity_about">About</string>
+    <string name="title_activity_tuner">Tuner</string>
+    <string name="title_activity_notes">Notes</string>
+    <string name="title_activity_setting">Settings</string>
+    <string name="title_activity_play">Play</string>
+    <string name="title_activity_metro">Metronome</string>
+    <string name="title_activity_exit">Exit</string>
+
+    <string name="head_about_text">About MyViolin</string>
+    <string name="about_text">Android application to play violin. Helps play notes.
+        Contains Violin Tuner, List of Notes, Playing screen.
+    </string>
+    <string name="head2_about_text">Get started</string>
+    <string name="about2_text">Push Play to start playing. I will see 8 buttons
+        which correspond to 8 notes.
+    </string>
+    <string name="head3_about_text">Use Tuner</string>
+    <string name="about3_text">Push Tuner to start tune your violin.
+    </string>
+
+
+    <string name="welcome"><b>Welcome to FullViolin</b></string>
+
+    <string name="choiceText">Choose one of the radio buttons below to change background color</string>
+    <string name="Choose">Choose</string>
+
+    <string name="C_black">Black</string>
+    <string name="C_blue">Blue</string>
+    <string name="C_grey">Grey</string>
+    <string name="C_pink">Pink</string>
+    <string name="C_violet">Violet</string>
+
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="bps">bps</string>
+    <string name="timesignature">time signature</string>
+    <string name="dash">/</string>
+    <string name="volume">volume</string>
+    <string name="one">1</string>
+
+    <string name="note0">Choose notes</string>
+    <string name="note1">Saint-Saens  The Swan</string>
+    <string name="note2">Bash  Sonata No.4</string>
+    <string name="note3">Derbenko  Polka</string>
+    <string name="note4">Vivaldi  Concert Am</string>
+    <string name="note5">Lulli  Gavotte</string>
+    <string name="note6">Loveland  Secret Garden Song</string>
+    <string name="note7">Metallidi  Roantic Waltz</string>
+    <string name="note8">Metallidi  Roantic Waltz</string>
+
+
+</resources>
