@@ -16,48 +16,48 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/music"
-                android:layout_margin="@dimen/main_margin"/>
+                android:layout_margin="@dimen/main_margin" android:layout_gravity="center_horizontal"/>
         <ImageButton
                 android:id="@+id/ImageButton_m2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/music"
-                android:layout_margin="@dimen/main_margin"/>
+                android:layout_margin="@dimen/main_margin" android:layout_gravity="center_horizontal"/>
         <ImageButton
                 android:id="@+id/ImageButton_m3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/music"
-                android:layout_margin="@dimen/main_margin"/>
+                android:layout_margin="@dimen/main_margin" android:layout_gravity="center_horizontal"/>
         <ImageButton
                 android:id="@+id/ImageButton_m4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/music"
-                android:layout_margin="@dimen/main_margin"/>
+                android:layout_margin="@dimen/main_margin" android:layout_gravity="center_horizontal"/>
         <ImageButton
                 android:id="@+id/ImageButton_m5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/music"
-                android:layout_margin="@dimen/main_margin"/>
+                android:layout_margin="@dimen/main_margin" android:layout_gravity="center_horizontal"/>
         <ImageButton
                 android:id="@+id/ImageButton_m6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/music"
-                android:layout_margin="@dimen/main_margin"/>
+                android:layout_margin="@dimen/main_margin" android:layout_gravity="center_horizontal"/>
         <ImageButton
                 android:id="@+id/ImageButton_m7"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/music"
-                android:layout_margin="@dimen/main_margin"/>
+                android:layout_margin="@dimen/main_margin" android:layout_gravity="center_horizontal"/>
         <ImageButton
                 android:id="@+id/ImageButton_m8"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/music"
-                android:layout_margin="@dimen/main_margin"/>
+                android:layout_margin="@dimen/main_margin" android:layout_gravity="center_horizontal"/>
     </LinearLayout>
 </LinearLayout>

@@ -12,16 +12,24 @@
 
     <string name="head_about_text">About MyViolin</string>
     <string name="about_text">Android application to play violin. Helps play notes.
-        Contains Violin Tuner, List of Notes, Playing screen.
+        Contains Violin Tuner, List of Notes, Playing screen.\n
+        CopyRight Verinika Chigir
     </string>
     <string name="head2_about_text">Get started</string>
     <string name="about2_text">Push Play to start playing. I will see 8 buttons
         which correspond to 8 notes.
     </string>
-    <string name="head3_about_text">Use Tuner</string>
-    <string name="about3_text">Push Tuner to start tune your violin.
+    <string name="head3_about_text">Metronome</string>
+    <string name="about3_text">Push Metronome and start use it.
+        Push Start to start metronome. Push + or - to change rate.
+        Push left 4 and choose number of tik-toks in list.
     </string>
-
+    <string name="head4_about_text">Settings</string>
+    <string name="about4_text">Push Tuner to start tune your violin.
+    </string>
+    <string name="head5_about_text">Tuner</string>
+    <string name="about5_text">Push Tuner to start tune your violin.
+    </string>
 
     <string name="welcome"><b>Welcome to FullViolin</b></string>
 

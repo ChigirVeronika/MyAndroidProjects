@@ -76,11 +76,11 @@ public class SettingsActivity extends Activity {
                 int selectedId=radioGroup.getCheckedRadioButtonId();
 
                 if(selectedId==c_black.getId()) {
-                    settingsLayout.setBackgroundColor(Color.BLACK);
-                    aboutLayout.setBackgroundColor(Color.BLACK);
-                    notesLayout.setBackgroundColor(Color.BLACK);
-                    playLayout.setBackgroundColor(Color.BLACK);
-                    tunerLayout.setBackgroundColor(Color.BLACK);
+//                    settingsLayout.setBackgroundColor(Color.BLACK);
+//                    aboutLayout.setBackgroundColor(Color.BLACK);
+//                    notesLayout.setBackgroundColor(Color.BLACK);
+//                    playLayout.setBackgroundColor(Color.BLACK);
+//                    tunerLayout.setBackgroundColor(Color.BLACK);
                     textView.setText("You chose Black color.");
                 }else if(selectedId==c_blue.getId()){
                     settingsLayout.setBackgroundColor(Color.BLUE);
@@ -89,12 +89,12 @@ public class SettingsActivity extends Activity {
                     playLayout.setBackgroundColor(Color.BLUE);
                     tunerLayout.setBackgroundColor(Color.BLUE);
                     textView.setText("You chose Blue color.");
-                }else if(selectedId==c_blue.getId()){
-                    settingsLayout.setBackgroundColor(Color.GRAY);
-                    aboutLayout.setBackgroundColor(Color.GRAY);
-                    notesLayout.setBackgroundColor(Color.GRAY);
-                    playLayout.setBackgroundColor(Color.GRAY);
-                    tunerLayout.setBackgroundColor(Color.GRAY);
+                }else if(selectedId==c_grey.getId()){
+//                    settingsLayout.setBackgroundColor(Color.GRAY);
+//                    aboutLayout.setBackgroundColor(Color.GRAY);
+//                    notesLayout.setBackgroundColor(Color.GRAY);
+//                    playLayout.setBackgroundColor(Color.GRAY);
+//                    tunerLayout.setBackgroundColor(Color.GRAY);
                     textView.setText("You chose Gray color.");
                 }else{
                     settingsLayout.setBackgroundColor(Color.RED);
