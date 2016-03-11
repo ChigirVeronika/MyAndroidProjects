@@ -8,10 +8,14 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
-import android.widget.Button;
+import android.widget.*;
 import by.bsuir.myfullviolin.R;
+import by.bsuir.myfullviolin.model.metronome.Beats;
+import by.bsuir.myfullviolin.model.note.NoteMenu;
 
 import java.io.*;
+
+import static by.bsuir.myfullviolin.model.note.NoteMenu.*;
 
 public class NotesActivity extends Activity {
     @Override
@@ -69,6 +73,23 @@ public class NotesActivity extends Activity {
             }
         });
 
+        //view toast with now selected spinner
+        Spinner spinner = (Spinner) findViewById(R.id.spinner1);
+        nowSelectedSpinner(spinner);
+
+        ArrayAdapter<Beats> arrayMenu =
+                new ArrayAdapter<Beats>(this,
+                        android.R.layout.simple_spinner_item, values());
+        spinner.setAdapter(arrayMenu);
+        arrayMenu.setDropDownViewResource(R.layout.spinner_dropdown);
+        spinner.setOnItemSelectedListener(beatsSpinnerListener);
+
+
+    }
+
+    private void nowSelectedSpinner(Spinner spinner){
+        String selected = spinner.getSelectedItem().toString();
+        Toast.makeText(getApplicationContext(), selected, Toast.LENGTH_SHORT).show();
     }
 
     private void CopyReadPDFFromAssets(String pdfPath) {
@@ -110,5 +131,25 @@ public class NotesActivity extends Activity {
             out.write(buffer, 0, read);
         }
     }
+
+    private AdapterView.OnItemSelectedListener beatsSpinnerListener = new AdapterView.OnItemSelectedListener() {
+
+        @Override
+        public void onItemSelected(AdapterView<?> arg0, View arg1, int arg2,
+                                   long arg3) {
+            // TODO Auto-generated method stub
+            NoteMenu noteMenu=(NoteMenu) arg0.getItemAtPosition(arg2);
+            TextView timeSignature = (TextView) findViewById(R.id.timesignature);
+            //timeSignature.setText(""+beat+"/"+noteValue);
+            metroTask.setBeat(beat.getNum());
+        }
+
+        @Override
+        public void onNothingSelected(AdapterView<?> arg0) {
+            // TODO Auto-generated method stub
+
+        }
+
+    };
     
 }
