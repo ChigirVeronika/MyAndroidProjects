@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/notesLayout"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@drawable/cool">
+    <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/ScrollView"
+            >
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/cool"
+                android:orientation="vertical" >
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/note0"
+            android:textSize="@dimen/head_about_textsize"
+            android:id="@+id/textView"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="@dimen/main_margin"
+            android:textColor="@color/white"/>
+    <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/note1"
+                android:id="@+id/buttonNotes1"
+                android:layout_margin="@dimen/notes_margin"/>
+        <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:spinnerMode="dialog"
+                android:text="@string/note1"
+                android:id="@+id/spinner1"/>
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/note2"
+                android:id="@+id/buttonNotes2" android:layout_gravity="center_horizontal"
+                android:layout_margin="@dimen/notes_margin"/>
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/note3"
+                android:id="@+id/buttonNotes3" android:layout_gravity="center_horizontal"
+                android:layout_margin="@dimen/notes_margin"/>
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/note4"
+                android:id="@+id/buttonNotes4" android:layout_gravity="center_horizontal"
+                android:layout_margin="@dimen/notes_margin"/>
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/note5"
+                android:id="@+id/buttonNotes5" android:layout_gravity="center_horizontal"
+                android:layout_margin="@dimen/notes_margin"/>
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/note6"
+                android:id="@+id/buttonNotes6" android:layout_gravity="center_horizontal"
+                android:layout_margin="@dimen/notes_margin"/>
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/note8"
+                android:id="@+id/buttonNotes7" android:layout_gravity="center_horizontal"
+                android:layout_margin="@dimen/notes_margin"/>
+    </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
